@@ -17,7 +17,7 @@ my_bot_name = 'ank_bot' #e.g. zac_bot
 my_slack_username = 'ankitparekh' #e.g. zac.wentzell
 
 
-slack_inbound_url = 'https://hooks.slack.com/services/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'
+slack_inbound_url = 'https://hooks.slack.com/services/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'
 
 
 # this handles POST requests sent to your server at SERVERIP:41953/slack
