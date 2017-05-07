@@ -240,7 +240,7 @@ class DataFrame(object):
         fare = MinMaxScaler(feature_range=(-3, 3)).fit_transform(prices[:, None])
         day = MinMaxScaler(feature_range=(-2, 2)).fit_transform(x[:, None])
         X_ss = np.concatenate([day, fare], axis=1)
-        db_ss = DBSCAN(eps=0.60, min_samples=5).fit(X_ss)
+        db_ss = DBSCAN(eps=0.40, min_samples=5).fit(X_ss)
         do_yo_thang(X_ss, db_ss)
 
 
